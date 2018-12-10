@@ -40,7 +40,9 @@ It's also text-based, as the player has to read information from a CLI and send 
 
 ##### Programming Language/Enviroment
 
-I've used C++ 
+I've used the C++ programming language, using the CodeBlocks IDE
+
+![IDE Screenshot](https://github.com/vas16290487/High-Low/blob/master/documentation%20resources/IDE%20Screenshot.png)
 
 ##### Programming Challenges
 
