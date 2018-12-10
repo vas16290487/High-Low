@@ -58,8 +58,24 @@ Explanation of the algorithms behind your program
  
 ##### Coding Standards 
 
-Line length limit: 120 characters
+Line length:
+ - No single line of code should exceed 120 characters
+ - If a comment might go over this limit, use multi-line comments
+ 
+```C++
+ /* This is an example of a multi-line comment.
+    These should be used whenever a comment can't fit the 120 character limit,
+    or, to help with readibility.
+ */
+```
 
+ - If a string is too long to fit within the line character limit, enclose each part of the string within double quotes and write each part on a new line
+ 
+```C++
+cout << "Welcome to High-Low! The rules are simple: I will tell you a number between 1 and 10, "
+        "then I will roll a 10-sided dice for you. Then, you have to guess if the dice rolled a number "
+        "higher than my initial number. Easy, right? Let's get started!" << endl;
+```
 
 Comments: 
  - When describing one line of code, continue on the same line
@@ -67,7 +83,22 @@ Comments:
  ```C++
  int diceRoll; //Holder for result of dice roll
  ```
- - 
+ 
+ - When describing multiple lines of code, comment in the space above the section, with no lines between the section and the comment itself
+ 
+ ```C++
+ //Generate initial random number
+	srand(time(NULL));
+	compNum = rand() % 10 + 1;
+ ```
+ 
+ Variable names:
+  - All variables should use camel case
+  ```C++
+  string userInp; //Holder for user input. This could be y or n
+  ```
+  
+ 
 
 ### V. Research
 
