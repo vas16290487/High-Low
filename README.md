@@ -55,7 +55,7 @@ Think of this as the method. How will you go about building your program?
 Explanation of the algorithms behind your program
  
 ##### Coding Standards 
-Standard for the code you will be writting 
+Standard for the code you will be writing 
 
 ### V. Research
 
@@ -73,7 +73,8 @@ Table showing user stories with weighting, due date and completion state
 
 ##### Flowchart
 
-Flowchart showing how the program will work
+![High Low Flowchart](documentation resources/High Low Flowchart.png?raw=true)
+
 
 ##### Functions
 
