@@ -73,7 +73,7 @@ Table showing user stories with weighting, due date and completion state
 
 ##### Flowchart
 
-![High Low Flowchart](documentation resources/High Low Flowchart.png?raw=true)
+![High Low Flowchart](https://github.com/vas16290487/High-Low/blob/master/documentation%20resources/High%20Low%20Flowchart.png)
 
 
 ##### Functions
