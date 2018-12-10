@@ -58,6 +58,15 @@ Explanation of the algorithms behind your program
  
 ##### Coding Standards 
 
+Structure of code block:
+ - A block of code should be marked by curly brackets; the beginner bracket should be placed on the same line as the statement it belongs to, if the code block is more than one line 
+ ```C++
+ while (a < b) {
+	a++;
+	b = a + 5;
+ }
+ ```
+
 Line length:
  - No single line of code should exceed 120 characters
  - If a comment might go over this limit, use multi-line comments
