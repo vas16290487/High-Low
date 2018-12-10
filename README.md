@@ -57,7 +57,17 @@ Think of this as the method. How will you go about building your program?
 Explanation of the algorithms behind your program
  
 ##### Coding Standards 
-Standard for the code you will be writing 
+
+Line length limit: 120 characters
+
+
+Comments: 
+ - When describing one line of code, continue on the same line
+ 
+ ```C++
+ int diceRoll; //Holder for result of dice roll
+ ```
+ - 
 
 ### V. Research
 
